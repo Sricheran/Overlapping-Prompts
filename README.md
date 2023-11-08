@@ -103,5 +103,5 @@ d. If it is not present, append the common substring to the final_word.
 
 By combining these two algorithms, the program effectively identifies overlapping elements among the prompts and reconstructs a cohesive word from them.
 
-## BY:
+# :--:
 SRICHERAN CH_22011101023
