@@ -1,5 +1,7 @@
 # Overlapping Prompts
 
+# Simple Python Code
+
 **Purpose:**
 
 This program takes a list of prompts as input and identifies the
@@ -82,3 +84,21 @@ and the constructed word.
 The main part of the program calls the compare() function to get the
 list of overlapping elements and the constructed word. It then displays
 these outputs to the user.
+
+# Using AI Algorithm
+
+**Algorithm:**
+
+**Identity Algorithm:**
+a. Create an empty list common_elements to store the common substrings.
+b. Iterate through the prompts, comparing each pair of adjacent prompts.
+c. For each pair, find the longest common substring (LCS) between the end of the first prompt and the beginning of the second prompt.
+d. If the LCS is not empty, add it to the common_elements list.
+
+**Classical Search Algorithm:**
+a. Initialize an empty string final_word.
+b. Iterate through the common_elements list in order.
+c. For each common substring, check if it is already present in the final_word.
+d. If it is not present, append the common substring to the final_word.
+
+By combining these two algorithms, the program effectively identifies overlapping elements among the prompts and reconstructs a cohesive word from them.
